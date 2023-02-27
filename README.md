@@ -4,9 +4,9 @@
 
 Le projet consiste en trois grandes parties qui sont reparties comme suit :
 
-1. Tâche 1 : Détection de cancer avec EfficientNetV2
-2. Tâche 2 : Détection et segmentation des lésions cutanées avec Mask-RCNN
-3. Tâche 3 : Détection et segmentation de lésions cutanées avec YOLO v8
+1. **Détection de cancer avec EfficientNetV2**
+2. **Détection et segmentation des lésions cutanées avec Mask-RCNN**
+3. **Détection et segmentation de lésions cutanées avec YOLO v8**
 
 Pour les deux dernières tâches après détection et segmentation nous allons essayer d'évaluez les modèle en utilisant les métriques mAP, IoU et Dice.
 
