@@ -8,7 +8,10 @@ Le projet consiste en trois grandes parties qui sont reparties comme suit :
 2. Tâche 2 : Détection et segmentation des lésions cutanées avec Mask-RCNN
 3. Tâche 3 : Détection et segmentation de lésions cutanées avec YOLO v8
 
-Etant donné les différentes tâches constituant notre projet, nous allons essayer de comprendre les différentes notions qui y sont liées. Pour ce faire deux grandes questions se posent : `Qu'est-ce que la détection d'objets ?` `Qu'est-ce que la segementation d'image ?`
+Pour les deux dernières tâches après détection et segmentation nous allons essayer d'évaluez les modèle en utilisant les métriques mAP, IoU et Dice.
+
+Pour les deux dernières tâches après détection et segmentation nous allons essayer d'évaluez les modèle en utilisant les métriques mAP, IoU et Dice.
+Etant donné les différentes tâches constituant notre projet, nous allons essayer de comprendre les différentes notions qui y sont liées. Pour ce faire trois grandes questions se posent : `Qu'est-ce que la détection d'objets ?` `Qu'est-ce que la segementation d'image ?` `C'est quoi les métriques mAP, IoU et Dice ?
 
 
 
@@ -23,3 +26,16 @@ Etant donné les différentes tâches constituant notre projet, nous allons essa
   La segmentation d'image est un domaine de la vision par ordinateur qui consiste à diviser une image en plusieurs régions homogènes, appelées segments, en fonction de certains critères. Chaque segment représente une région d'intérêt distincte de l'image, comme un objet, une personne, un animal, etc.
 
   La segmentation d'image est un prétraitement important pour de nombreuses tâches en vision par ordinateur, telles que la reconnaissance d'objets, la reconnaissance de la forme, la reconstruction 3D, etc. Les algorithmes de segmentation d'image peuvent être basés sur des techniques telles que les réseaux de neurones, les algorithmes de filtrage, les algorithmes basés sur les modèles, etc. Les réseaux de neurones, tels que U-Net et SegNet, sont actuellement considérés comme les méthodes les plus avancées pour la segmentation d'image en raison de leur capacité à capturer des caractéristiques complexes et à générer des résultats précis.
+  
+*   `C'est quoi les métriques mAP, IoU et Dice ?`
+
+  La précision moyenne moyenne (mAP) est une mesure de performance utilisée pour évaluer les modèles d'apprentissage automatique. Il s'agit de la mesure la plus populaire utilisée par les défis de référence tels que PASCAL VOC , COCO , ImageNET challenge, Google Open Image Challenge, etc.
+Comme son nom l'indique, la précision moyenne moyenne ou mAP est la moyenne de l'AP sur toutes les classes détectées.
+
+mAP = 1/n * sum(AP) , où n est le nombre de classes.
+
+  Intersection Over Union (IoU) est un nombre qui quantifie le degré de chevauchement entre deux boîtes. Dans le cas de la détection et de la segmentation d'objets, IoU évalue le chevauchement de la région Ground Truth and Prediction . C'est le premier point de contrôle pour évaluer la précision d'un modèle. En termes simples, c'est une métrique qui nous aide à mesurer l'exactitude d'une prédiction.
+
+  Dice, connu aussi sous les noms d'indice de Sørensen, coefficient de Dice et d'autres noms encore est un indicateur statistique qui mesure la similarité de deux échantillons.
+  
+ \text{Dice} = \frac{\text{2 * TP}}{\text{2 * TP} + \text{FP} + \text{FN}}
