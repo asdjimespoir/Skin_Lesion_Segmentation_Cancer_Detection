@@ -8,7 +8,7 @@ Le projet consiste en trois grandes parties qui sont reparties comme suit :
 2. **Détection et segmentation des lésions cutanées avec Mask-RCNN**
 3. **Détection et segmentation de lésions cutanées avec YOLO v8**
 
-Pour les deux dernières tâches après détection et segmentation nous allons essayer d'évaluez les modèle en utilisant les métriques mAP, IoU et Dice.
+Pour les deux dernières tâches après détection et segmentation nous allons essayer d'évaluer les modèles en utilisant les métriques mAP, IoU et Dice.
 
 Pour les deux dernières tâches après détection et segmentation nous allons essayer d'évaluez les modèle en utilisant les métriques mAP, IoU et Dice.
 Etant donné les différentes tâches constituant notre projet, nous allons essayer de comprendre les différentes notions qui y sont liées. Pour ce faire trois grandes questions se posent : `Qu'est-ce que la détection d'objets ?` `Qu'est-ce que la segementation d'image ?` `C'est quoi les métriques mAP, IoU et Dice ?
