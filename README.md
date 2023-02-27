@@ -1,7 +1,6 @@
-#Projet Deep Learning
-##Segmentation des lésions cutanées et détection du cancer par Deep Learning
+# Segmentation des lésions cutanées et détection du cancer par Deep Learning
 
-##Plan du travail
+## Plan du travail
 
 Le projet consiste en trois grandes parties qui sont reparties comme suit :
 
