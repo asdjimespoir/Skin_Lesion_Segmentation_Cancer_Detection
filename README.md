@@ -35,6 +35,8 @@ Comme son nom l'indique, la précision moyenne moyenne ou mAP est la moyenne de 
 mAP = 1/n * sum(AP) , où n est le nombre de classes.
 
   Intersection Over Union (IoU) est un nombre qui quantifie le degré de chevauchement entre deux boîtes. Dans le cas de la détection et de la segmentation d'objets, IoU évalue le chevauchement de la région Ground Truth and Prediction . C'est le premier point de contrôle pour évaluer la précision d'un modèle. En termes simples, c'est une métrique qui nous aide à mesurer l'exactitude d'une prédiction.
+![IoU](https://user-images.githubusercontent.com/53083052/221696111-a97efe6e-81fb-4c12-83f0-183d9b8784f9.png)
+
 
   Dice, connu aussi sous les noms d'indice de Sørensen, coefficient de Dice et d'autres noms encore est un indicateur statistique qui mesure la similarité de deux échantillons.
   
