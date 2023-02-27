@@ -38,4 +38,4 @@ mAP = 1/n * sum(AP) , où n est le nombre de classes.
 
   Dice, connu aussi sous les noms d'indice de Sørensen, coefficient de Dice et d'autres noms encore est un indicateur statistique qui mesure la similarité de deux échantillons.
   
- \text{Dice} = \frac{\text{2 * TP}}{\text{2 * TP} + \text{FP} + \text{FN}}
+ Dice = 2 * TP/ 2 * TP + FP + FN
