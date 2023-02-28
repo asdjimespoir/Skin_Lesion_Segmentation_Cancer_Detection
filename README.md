@@ -3,7 +3,7 @@
 ## Plan du travail
 
 Le projet consiste en trois grandes parties qui sont reparties comme suit :
-
+Mask_RCNN_Detection_Segmentation.ipynb
 1. **Détection de cancer avec EfficientNetV2** https://github.com/asdjimespoir/Skin_Lesion_Segmentation_Cancer_Detection/blob/43757b8156dd8466e085a146025939ea846c266a/Yolo_Detection_Segmentation.ipynb
 2. **Détection et segmentation des lésions cutanées avec Mask-RCNN**
 3. **Détection et segmentation de lésions cutanées avec YOLO v8**
